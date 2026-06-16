@@ -1,0 +1,38 @@
+{
+  "name": "github-dashboard-cli",
+  "version": "1.0.0",
+  "description": "A command-line GitHub stats dashboard built with Node.js and TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "dev": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsbly1/github-dashboard-cli.git"
+  },
+  "keywords": [
+    "github",
+    "cli",
+    "dashboard",
+    "typescript"
+  ],
+  "author": "Damon Bly Jr.",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/dsbly1/github-dashboard-cli/issues"
+  },
+  "homepage": "https://github.com/dsbly1/github-dashboard-cli#readme",
+  "dependencies": {
+    "axios": "^1.18.0",
+    "chalk": "^4.1.2",
+    "ora": "^5.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}
